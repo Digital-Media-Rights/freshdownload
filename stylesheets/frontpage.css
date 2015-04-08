@@ -29,13 +29,14 @@ body {
   background: #f3f3f3; }
   #main #tabrow {
     position: relative;
-    width: 1060px;
+    width: 1020px;
     margin: 0 auto;
     padding: 5% 0 0; }
     #main #tabrow .nav {
       position: relative;
-      margin: 0 11px 0 0;
+      margin: 0 4px 0 0;
       padding: 1px 8px;
+      border-radius: 15% 15% 0 0;
       float: left;
       bottom: 0px;
       background: #f6ac9a;
@@ -47,29 +48,32 @@ body {
       #main #tabrow .selected:hover {
         background: #ee5f3c; }
   #main #that_one_line_at_the_top {
-    width: 94%;
+    width: 90%;
     margin: 0 auto;
     opacity: .27; }
   #main #tilewrapper {
     position: relative;
-    width: 1060px;
+    width: 1020px;
     background: #fff;
     margin: 0 auto;
+    padding: 0 3%;
     letter-spacing: -5px; }
     #main #tilewrapper .tile {
       box-sizing: border-box;
       letter-spacing: .08em;
       position: relative;
       display: inline-block;
-      width: 353.33333px;
-      height: 504.7619px;
+      width: 340px;
+      height: 485.71429px;
       padding: 1% 3% .4%;
+      margin: 2% 0;
       overflow: hidden; }
       #main #tilewrapper .tile .tag {
-        height: 20.19048px;
+        height: 19.42857px;
         padding: 0 3px;
         background: #f6ac9a;
         color: white;
+        border-radius: 8% 8% 0 0;
         float: left; }
         #main #tilewrapper .tile .tag:hover {
           background: #e33d14; }
@@ -81,7 +85,7 @@ body {
         position: relative;
         display: block;
         width: 100%;
-        height: 186.7619px; }
+        height: 179.71429px; }
         #main #tilewrapper .tile .image img {
           position: relative;
           width: inherit;
@@ -90,16 +94,16 @@ body {
         margin: 4% 0;
         height: auto;
         font-size: 22.8px;
-        line-height: 23.994px;
+        line-height: 25.2px;
         font-family: Arial, Helvetica, sans-serif; }
         #main #tilewrapper .tile .headline:hover {
           color: #626677; }
       #main #tilewrapper .tile .text {
         overflow: hidden;
         display: block;
-        height: 141.33333px;
+        height: 136.0px;
         font-weight: 500;
-        padding: 0 0 0 9px;
+        padding: 5% 0;
         text-align: justify; }
       #main #tilewrapper .tile .tilefoot {
         position: absolute;
@@ -127,4 +131,4 @@ body {
   height: 200px;
   background: #f3f3f3; }
 
-/*# sourceMappingURL=tile.css.map */
+/*# sourceMappingURL=frontpage.css.map */

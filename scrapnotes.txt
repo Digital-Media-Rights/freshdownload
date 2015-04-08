@@ -1,0 +1,27 @@
+Variables Needs
+
+General
+	$maxwidth:1200px;
+	$minwidth:400px;
+	$width:100%;
+	
+	$htmlbackground: #f3f3f3;
+	$contentbackground: white;
+
+Text
+	$fontfamily: Verdana, Geneva, sans-serif;
+	$basefontsize: 12px;
+	$baselineheight: 18px;
+	
+	$basehlsize
+
+TabNavs
+	$tilenavbar-h:;
+	$tilenavbar-w:;
+Image
+
+Tile
+	$tilehead-h:;
+	$tileimg-h:;
+	$tilebody-h:;
+	$tilefooter-h:;

@@ -1,3 +1,6 @@
+@import 'ac-constants';
+
+
 // General Style
 	$fontfamily: Verdana, Geneva, sans-serif;
 	$basefontsize: 12px;
@@ -6,11 +9,10 @@
 
 
 // Style for Wrapper
-	$bodywidth: 1060px;
+	$bodywidth: 1020px;
 	$mcentered: 0 auto;
 	$outergutter: 40px;
 	$innergutter: 60px;
-
 
 
 //Style for the tabs/buttons at top
@@ -20,6 +22,7 @@
 // Style for tiles
 	$tilewidth: $bodywidth/3;
 	$tileheight: $tilewidth/.7;
+	$tilemargin: 2% 0;
 	//tag	
 		$tiletagheight:$tileheight*.04;
 	//image		
@@ -28,7 +31,7 @@
 		$headlinefontfamily: Arial, Helvetica, sans-serif;
 		$tileheadlineheight:$tileheight*.13;
 		$tileheadlinefontsize: 1.9*$basefontsize;
-		$tileheadlinelineheight:1.333*$baselineheight;
+		$tileheadlinelineheight:1.4*$baselineheight;
 	//text
 		$tiletextheight:$tileheight*.28;
 		$tiletextfontsize: .6*$basefontsize; 
