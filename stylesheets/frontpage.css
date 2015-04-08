@@ -1,134 +1,243 @@
+.clearfix {
+  clear: both; }
+
+.heavytext, body, textarea, #footfoot {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: .05em;
+  font-weight: bold; }
+
+.readabletext {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: .05em; }
+
 html {
   width: 100%;
   height: 100%; }
 
 body {
-  min-width: 100%;
-  min-width: 444px;
+  width: 100%;
+  min-width: 1060px;
   height: 100%;
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 18px;
-  letter-spacing: .08em;
   background: #f3f3f3;
-  color: #34363f; }
+  color: #33353e; }
 
-.clearfix {
-  clear: both; }
+.textarea-shape, textarea {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  height: 45%;
+  min-height: 1em;
+  -moz-border-radius: 5% / 50%;
+  -webkit-border-radius: 5% / 50%;
+  border-radius: 5% / 50%;
+  background: #fff; }
+
+textarea {
+  width: 90%;
+  float: right;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  border: none;
+  border-style: none;
+  resize: none;
+  wrap: soft;
+  outline: none;
+  overflow-x: auto;
+  overflow-y: hidden; }
 
 #header {
-  width: 100%;
-  height: 100px;
-  background: #f3f3f3; }
+  position: relative;
+  background: #33353e;
+  height: 70px; }
+  #header #logochunk {
+    width: 20%;
+    height: inherit;
+    float: left; }
+    #header #logochunk img {
+      width: 78%;
+      margin: 4% 8% 4% 8%; }
+  #header #headerstuffchunk {
+    width: 66%;
+    height: inherit;
+    float: right; }
+    #header #headerstuffchunk .chunkpiece {
+      display: table;
+      height: inherit;
+      float: right;
+      color: #fff; }
+      #header #headerstuffchunk .chunkpiece span {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        margin: 0 auto;
+        color: inherit; }
+      #header #headerstuffchunk .chunkpiece .smicon {
+        position: relative;
+        display: inline-block;
+        margin: 0 -8%; }
+        #header #headerstuffchunk .chunkpiece .smicon img {
+          width: 40%; }
+    #header #headerstuffchunk .button:hover {
+      background: #4a4d5a;
+      color: #f7a388; }
+    #header #headerstuffchunk .grid-2-14 {
+      position: relative;
+      width: 14.28571%; }
+    #header #headerstuffchunk .grid-3-14 {
+      position: relative;
+      width: 21.42857%; }
+    #header #headerstuffchunk .grid-5-14 {
+      position: relative;
+      width: 35.71429%; }
 
-#main {
+#masthead {
+  position: relative;
+  height: 550px;
+  overflow: hidden; }
+  #masthead #carousel .mastframe {
+    position: relative; }
+    #masthead #carousel .mastframe img {
+      width: 110%; }
+    #masthead #carousel .mastframe #overlay-matte {
+      position: absolute; }
+    #masthead #carousel .mastframe #overlay-text {
+      position: absolute; }
+
+#pagebody {
+  position: relative;
   background: #f3f3f3; }
-  #main #tabrow {
+  #pagebody #tabrow {
     position: relative;
-    width: 1020px;
+    width: 1040px;
     margin: 0 auto;
     padding: 5% 0 0; }
-    #main #tabrow .nav {
+    #pagebody #tabrow .nav {
       position: relative;
       margin: 0 4px 0 0;
       padding: 1px 8px;
       border-radius: 15% 15% 0 0;
       float: left;
       bottom: 0px;
-      background: #f6ac9a;
+      background: #f7a388;
       color: white; }
-      #main #tabrow .nav:hover {
-        background: #e33d14; }
-    #main #tabrow .selected {
-      background: #e33d14; }
-      #main #tabrow .selected:hover {
-        background: #ee5f3c; }
-  #main #that_one_line_at_the_top {
+      #pagebody #tabrow .nav:hover {
+        background: #f05A29; }
+    #pagebody #tabrow .selected {
+      background: #f05A29; }
+      #pagebody #tabrow .selected:hover {
+        background: #f7a388; }
+  #pagebody #that_one_line_at_the_top {
     width: 90%;
     margin: 0 auto;
-    opacity: .27; }
-  #main #tilewrapper {
+    opacity: 0.27; }
+  #pagebody #tilewrapper {
     position: relative;
-    width: 1020px;
+    width: 1040px;
     background: #fff;
     margin: 0 auto;
     padding: 0 3%;
     letter-spacing: -5px; }
-    #main #tilewrapper .tile {
+    #pagebody #tilewrapper .tile {
       box-sizing: border-box;
       letter-spacing: .08em;
       position: relative;
       display: inline-block;
-      width: 340px;
-      height: 485.71429px;
+      width: 346.66667px;
+      height: 495.2381px;
       padding: 1% 3% .4%;
       margin: 2% 0;
       overflow: hidden; }
-      #main #tilewrapper .tile .tag {
-        height: 19.42857px;
+      #pagebody #tilewrapper .tile .tag {
+        height: 19.80952px;
         padding: 0 3px;
-        background: #f6ac9a;
+        background: #f7a388;
         color: white;
         border-radius: 8% 8% 0 0;
         float: left; }
-        #main #tilewrapper .tile .tag:hover {
-          background: #e33d14; }
-      #main #tilewrapper .tile .date {
+        #pagebody #tilewrapper .tile .tag:hover {
+          background: #f05A29; }
+      #pagebody #tilewrapper .tile .date {
         float: right; }
-      #main #tilewrapper .tile .image {
+      #pagebody #tilewrapper .tile .image {
         clear: both;
         overflow: hidden;
         position: relative;
         display: block;
         width: 100%;
-        height: 179.71429px; }
-        #main #tilewrapper .tile .image img {
+        height: 183.2381px; }
+        #pagebody #tilewrapper .tile .image img {
           position: relative;
           width: inherit;
           margin: 0 auto; }
-      #main #tilewrapper .tile .headline {
+      #pagebody #tilewrapper .tile .headline {
         margin: 4% 0;
         height: auto;
-        font-size: 22.8px;
+        font-size: 26.6px;
         line-height: 25.2px;
         font-family: Arial, Helvetica, sans-serif; }
-        #main #tilewrapper .tile .headline:hover {
+        #pagebody #tilewrapper .tile .headline:hover {
           color: #626677; }
-      #main #tilewrapper .tile .text {
+      #pagebody #tilewrapper .tile .text {
         overflow: hidden;
         display: block;
-        height: 136.0px;
         font-weight: 500;
-        padding: 5% 0;
-        text-align: justify; }
-      #main #tilewrapper .tile .tilefoot {
+        padding: 5% 0; }
+      #pagebody #tilewrapper .tile .tilefoot {
         position: absolute;
         width: 80%;
         bottom: 0px;
         padding: 0;
         margin: 0; }
-        #main #tilewrapper .tile .tilefoot .author {
+        #pagebody #tilewrapper .tile .tilefoot .author {
           position: absolute;
           display: block;
           text-align: right;
           font-weight: normal;
           top: 0px;
           right: 0px;
-          font-size: 10.8px; }
-        #main #tilewrapper .tile .tilefoot .readmore {
+          font-size: 12.6px; }
+        #pagebody #tilewrapper .tile .tilefoot .readmore {
           position: absolute;
           display: block;
           top: 0px;
           left: 0px;
-          font-size: 10.8px; }
+          font-size: 12.6px; }
 
 #footer {
-  width: 100%;
-  height: 200px;
+  position: relative;
+  height: 400px;
+  margin: 0;
+  padding: 0; }
+  #footer #that_one_line_at_the_bottom {
+    width: 70%;
+    margin: 0 auto;
+    opacity: 0.27; }
+
+#footcontent {
+  height: 70%;
   background: #f3f3f3; }
+
+#footfoot {
+  position: relative;
+  height: 30%;
+  background: #33353e;
+  color: #fff; }
+  #footfoot #copyrightwrapper {
+    float: right;
+    width: 33%; }
+    #footfoot #copyrightwrapper img {
+      display: block;
+      width: 60%;
+      margin: 3% auto 0; }
+    #footfoot #copyrightwrapper #copyrightspan {
+      font-size: 70%;
+      text-align: center; }
 
 /*# sourceMappingURL=frontpage.css.map */

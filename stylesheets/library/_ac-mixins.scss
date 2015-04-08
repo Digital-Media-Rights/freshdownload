@@ -1,0 +1,14 @@
+@mixin scalenpad($size, $top, $left, $bottom:$top, $right:$left){
+	width: $size;
+	margin: $top $right $bottom $left;	
+}
+
+@mixin makexofn ($span, $gridref) {
+	width: ((100%/$gridref) * $span);
+}
+
+
+@mixin makealine ($width, $margin, $opacity) {
+	width:$width; margin: $margin;
+	opacity: $opacity;
+}

@@ -1,0 +1,74 @@
+
+@import 'ac-mixins';
+
+// Asian Crush Variables 
+
+//Colors
+	$htmlbackground: #f3f3f3;
+	$primary-color: #33353e;
+	$secondary-color: #f05A29;
+	$tertiary-color: #fff;
+	$tabcolor-unfocused: lighten($primary-color, 50%);
+	$tabcolor-focused: $primary-color;
+
+	//Opacities
+		$opac-none: 0;
+		$opac-half: .5;
+		$opac-full: 1;
+
+//Measurements
+	//header
+		$headerheight: 70px;
+		//header chunks
+			$logochunk: 20%;
+			$headerstuffchunk: 66%;
+	//masthead
+		$mastheadheight: 550px;
+	//pagebody
+
+	//footer
+		$footerheight:400px;
+
+
+//Text & Font
+	$akzitek-super: "Akzidenz-Grotesk-BQ-Super_2842.ttf";
+	$fontfamily: Arial, Helvetica, sans-serif;
+	$basefontsize: 14px;
+	$baselineheight: 18px;
+	$baseletterspacing: .05em;
+
+
+
+//Icons and Buttons
+	$ac-logo: "images/ac-logo.png";
+
+
+// Style for Wrapper
+	$bodywidth: 1040px;
+	$mcentered: 0 auto;
+	$outergutter: 40px;
+	$innergutter: 60px;
+
+
+
+// Style for tiles
+	$tilewidth: $bodywidth/3;
+	$tileheight: $tilewidth/.7;
+	$tilemargin: 2% 0;
+	//tag	
+		$tiletagheight:$tileheight*.04;
+	//image		
+		$tileimageheight:$tileheight*.37;
+	//headline
+		$headlinefontfamily: Arial, Helvetica, sans-serif;
+		$tileheadlineheight:$tileheight*.13;
+		$tileheadlinefontsize: 1.9*$basefontsize;
+		$tileheadlinelineheight:1.4*$baselineheight;
+
+	//tilefoot	
+		//author
+			//$tileauthorheight:$tileheight*.09;
+			$tileauthorfontsize: .9*$basefontsize;
+
+	$tilefontcolor: #34363f;
+
