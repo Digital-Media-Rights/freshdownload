@@ -1,18 +1,133 @@
+@font-face {
+  font-family: overlayfont;
+  src: url("../assets/fonts/ufonts.com_avantgarde-book.ttf"); }
+@font-face {
+  font-family: navlinkfont;
+  src: url("../assets/fonts/ufonts.com_avantgarde-demi-opentype.otf"); }
+@font-face {
+  font-family: headlinefont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Bold-Extended_2808.ttf"); }
+@font-face {
+  font-family: splashtextfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Super_2842.ttf"); }
+@font-face {
+  font-family: tileheadfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Regular_2840.ttf"); }
+@font-face {
+  font-family: footcolheadfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Extended_2814.ttf"); }
+@font-face {
+  font-family: footcolitemfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Light_2831.ttf"); }
+.overlayfont {
+  font-family: overlayfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.navlinkfont, #tabrow, #headerstuffchunk, #footfoot {
+  font-family: navlinkfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.headlinefont {
+  font-family: headlinefont;
+  font-size: 1.05rem;
+  line-height: 1.2rem;
+  letter-spacing: -.03rem; }
+
+.splashtextfont, textarea, .tile {
+  font-family: splashtextfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.tileheadfont, .date, .tag {
+  font-family: tileheadfont;
+  font-size: .85rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.footcolhead {
+  font-family: footcolheadfont;
+  margin-bottom: 2em;
+  font-size: 1.2rem;
+  line-height: .7rem;
+  letter-spacing: .2rem; }
+
+.footcolitem {
+  font-family: footcolitemfont;
+  font-size: auto;
+  line-height: 1.45em;
+  letter-spacing: auto; }
+
+@font-face {
+  font-family: overlayfont;
+  src: url("../assets/fonts/ufonts.com_avantgarde-book.ttf"); }
+@font-face {
+  font-family: navlinkfont;
+  src: url("../assets/fonts/ufonts.com_avantgarde-demi-opentype.otf"); }
+@font-face {
+  font-family: headlinefont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Bold-Extended_2808.ttf"); }
+@font-face {
+  font-family: splashtextfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Super_2842.ttf"); }
+@font-face {
+  font-family: tileheadfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Regular_2840.ttf"); }
+@font-face {
+  font-family: footcolheadfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Extended_2814.ttf"); }
+@font-face {
+  font-family: footcolitemfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Light_2831.ttf"); }
+.overlayfont {
+  font-family: overlayfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.navlinkfont, #tabrow, #headerstuffchunk, #footfoot {
+  font-family: navlinkfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.headlinefont {
+  font-family: headlinefont;
+  font-size: 1.05rem;
+  line-height: 1.2rem;
+  letter-spacing: -.03rem; }
+
+.splashtextfont, textarea, .tile {
+  font-family: splashtextfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.tileheadfont, .date, .tag {
+  font-family: tileheadfont;
+  font-size: .85rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.footcolhead {
+  font-family: footcolheadfont;
+  margin-bottom: 2em;
+  font-size: 1.2rem;
+  line-height: .7rem;
+  letter-spacing: .2rem; }
+
+.footcolitem {
+  font-family: footcolitemfont;
+  font-size: auto;
+  line-height: 1.45em;
+  letter-spacing: auto; }
+
 .clearfix {
   clear: both; }
-
-.heavytext, body, textarea, #footfoot {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: .05em;
-  font-weight: bold; }
-
-.readabletext {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 12px;
-  line-height: 17px;
-  letter-spacing: .05em; }
 
 html {
   width: 100%;
@@ -51,6 +166,19 @@ textarea {
   outline: none;
   overflow-x: auto;
   overflow-y: hidden; }
+
+#tabrow .nav {
+  font-size: 120%; }
+
+.tile .readmore {
+  font-size: 115%; }
+
+.date, .tag {
+  font-size: 180%;
+  padding: 3px; }
+
+#headerstuffchunk .chunkpiece {
+  font-size: 120%; }
 
 #header {
   position: relative;
@@ -101,14 +229,151 @@ textarea {
   position: relative;
   height: 550px;
   overflow: hidden; }
-  #masthead #carousel .mastframe {
-    position: relative; }
-    #masthead #carousel .mastframe img {
-      width: 110%; }
-    #masthead #carousel .mastframe #overlay-matte {
-      position: absolute; }
-    #masthead #carousel .mastframe #overlay-text {
-      position: absolute; }
+
+@font-face {
+  font-family: overlayfont;
+  src: url("../assets/fonts/ufonts.com_avantgarde-book.ttf"); }
+@font-face {
+  font-family: navlinkfont;
+  src: url("../assets/fonts/ufonts.com_avantgarde-demi-opentype.otf"); }
+@font-face {
+  font-family: headlinefont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Bold-Extended_2808.ttf"); }
+@font-face {
+  font-family: splashtextfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Super_2842.ttf"); }
+@font-face {
+  font-family: tileheadfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Regular_2840.ttf"); }
+@font-face {
+  font-family: footcolheadfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Extended_2814.ttf"); }
+@font-face {
+  font-family: footcolitemfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Light_2831.ttf"); }
+.overlayfont {
+  font-family: overlayfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.navlinkfont, #tabrow, #headerstuffchunk, #footfoot {
+  font-family: navlinkfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.headlinefont {
+  font-family: headlinefont;
+  font-size: 1.05rem;
+  line-height: 1.2rem;
+  letter-spacing: -.03rem; }
+
+.splashtextfont, textarea, .tile {
+  font-family: splashtextfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.tileheadfont, .date, .tag {
+  font-family: tileheadfont;
+  font-size: .85rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.footcolhead {
+  font-family: footcolheadfont;
+  margin-bottom: 2em;
+  font-size: 1.2rem;
+  line-height: .7rem;
+  letter-spacing: .2rem; }
+
+.footcolitem {
+  font-family: footcolitemfont;
+  font-size: auto;
+  line-height: 1.45em;
+  letter-spacing: auto; }
+
+@font-face {
+  font-family: overlayfont;
+  src: url("../assets/fonts/ufonts.com_avantgarde-book.ttf"); }
+@font-face {
+  font-family: navlinkfont;
+  src: url("../assets/fonts/ufonts.com_avantgarde-demi-opentype.otf"); }
+@font-face {
+  font-family: headlinefont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Bold-Extended_2808.ttf"); }
+@font-face {
+  font-family: splashtextfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Super_2842.ttf"); }
+@font-face {
+  font-family: tileheadfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Regular_2840.ttf"); }
+@font-face {
+  font-family: footcolheadfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Extended_2814.ttf"); }
+@font-face {
+  font-family: footcolitemfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Light_2831.ttf"); }
+.overlayfont {
+  font-family: overlayfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.navlinkfont, #tabrow, #headerstuffchunk, #footfoot {
+  font-family: navlinkfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.headlinefont {
+  font-family: headlinefont;
+  font-size: 1.05rem;
+  line-height: 1.2rem;
+  letter-spacing: -.03rem; }
+
+.splashtextfont, textarea, .tile {
+  font-family: splashtextfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.tileheadfont, .date, .tag {
+  font-family: tileheadfont;
+  font-size: .85rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.footcolhead {
+  font-family: footcolheadfont;
+  margin-bottom: 2em;
+  font-size: 1.2rem;
+  line-height: .7rem;
+  letter-spacing: .2rem; }
+
+.footcolitem {
+  font-family: footcolitemfont;
+  font-size: auto;
+  line-height: 1.45em;
+  letter-spacing: auto; }
+
+.mastframe {
+  position: relative; }
+  .mastframe img {
+    position: absolute;
+    width: 100%; }
+  .mastframe #overlay-matte {
+    position: absolute;
+    height: 57%;
+    width: 30%;
+    right: 0;
+    background: purple; }
+  .mastframe #overlay-text {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: purple; }
 
 #pagebody {
   position: relative;
@@ -141,7 +406,7 @@ textarea {
     position: relative;
     width: 1040px;
     background: #fff;
-    margin: 0 auto;
+    margin: 0 auto 25px;
     padding: 0 3%;
     letter-spacing: -5px; }
     #pagebody #tilewrapper .tile {
@@ -150,13 +415,11 @@ textarea {
       position: relative;
       display: inline-block;
       width: 346.66667px;
-      height: 495.2381px;
-      padding: 1% 3% .4%;
+      height: 577.77778px;
+      padding: 1% 3% .8%;
       margin: 2% 0;
       overflow: hidden; }
       #pagebody #tilewrapper .tile .tag {
-        height: 19.80952px;
-        padding: 0 3px;
         background: #f7a388;
         color: white;
         border-radius: 8% 8% 0 0;
@@ -171,17 +434,14 @@ textarea {
         position: relative;
         display: block;
         width: 100%;
-        height: 183.2381px; }
+        height: 213.77778px; }
         #pagebody #tilewrapper .tile .image img {
           position: relative;
           width: inherit;
           margin: 0 auto; }
       #pagebody #tilewrapper .tile .headline {
         margin: 4% 0;
-        height: auto;
-        font-size: 26.6px;
-        line-height: 25.2px;
-        font-family: Arial, Helvetica, sans-serif; }
+        height: auto; }
         #pagebody #tilewrapper .tile .headline:hover {
           color: #626677; }
       #pagebody #tilewrapper .tile .text {
@@ -201,14 +461,140 @@ textarea {
           text-align: right;
           font-weight: normal;
           top: 0px;
-          right: 0px;
-          font-size: 12.6px; }
+          right: 0px; }
         #pagebody #tilewrapper .tile .tilefoot .readmore {
           position: absolute;
           display: block;
           top: 0px;
-          left: 0px;
-          font-size: 12.6px; }
+          left: 0px; }
+
+@font-face {
+  font-family: overlayfont;
+  src: url("../assets/fonts/ufonts.com_avantgarde-book.ttf"); }
+@font-face {
+  font-family: navlinkfont;
+  src: url("../assets/fonts/ufonts.com_avantgarde-demi-opentype.otf"); }
+@font-face {
+  font-family: headlinefont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Bold-Extended_2808.ttf"); }
+@font-face {
+  font-family: splashtextfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Super_2842.ttf"); }
+@font-face {
+  font-family: tileheadfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Regular_2840.ttf"); }
+@font-face {
+  font-family: footcolheadfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Extended_2814.ttf"); }
+@font-face {
+  font-family: footcolitemfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Light_2831.ttf"); }
+.overlayfont {
+  font-family: overlayfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.navlinkfont, #tabrow, #headerstuffchunk, #footfoot {
+  font-family: navlinkfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.headlinefont {
+  font-family: headlinefont;
+  font-size: 1.05rem;
+  line-height: 1.2rem;
+  letter-spacing: -.03rem; }
+
+.splashtextfont, textarea, .tile {
+  font-family: splashtextfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.tileheadfont, .date, .tag {
+  font-family: tileheadfont;
+  font-size: .85rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.footcolhead {
+  font-family: footcolheadfont;
+  margin-bottom: 2em;
+  font-size: 1.2rem;
+  line-height: .7rem;
+  letter-spacing: .2rem; }
+
+.footcolitem {
+  font-family: footcolitemfont;
+  font-size: auto;
+  line-height: 1.45em;
+  letter-spacing: auto; }
+
+@font-face {
+  font-family: overlayfont;
+  src: url("../assets/fonts/ufonts.com_avantgarde-book.ttf"); }
+@font-face {
+  font-family: navlinkfont;
+  src: url("../assets/fonts/ufonts.com_avantgarde-demi-opentype.otf"); }
+@font-face {
+  font-family: headlinefont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Bold-Extended_2808.ttf"); }
+@font-face {
+  font-family: splashtextfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Super_2842.ttf"); }
+@font-face {
+  font-family: tileheadfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Regular_2840.ttf"); }
+@font-face {
+  font-family: footcolheadfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Extended_2814.ttf"); }
+@font-face {
+  font-family: footcolitemfont;
+  src: url("../assets/fonts/Akzidenz-Grotesk-BQ-Light_2831.ttf"); }
+.overlayfont {
+  font-family: overlayfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.navlinkfont, #tabrow, #headerstuffchunk, #footfoot {
+  font-family: navlinkfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.headlinefont {
+  font-family: headlinefont;
+  font-size: 1.05rem;
+  line-height: 1.2rem;
+  letter-spacing: -.03rem; }
+
+.splashtextfont, textarea, .tile {
+  font-family: splashtextfont;
+  font-size: .66rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.tileheadfont, .date, .tag {
+  font-family: tileheadfont;
+  font-size: .85rem;
+  line-height: 1.1rem;
+  letter-spacing: .02rem; }
+
+.footcolhead {
+  font-family: footcolheadfont;
+  margin-bottom: 2em;
+  font-size: 1.2rem;
+  line-height: .7rem;
+  letter-spacing: .2rem; }
+
+.footcolitem {
+  font-family: footcolitemfont;
+  font-size: auto;
+  line-height: 1.45em;
+  letter-spacing: auto; }
 
 #footer {
   position: relative;
@@ -221,8 +607,21 @@ textarea {
     opacity: 0.27; }
 
 #footcontent {
-  height: 70%;
+  position: relative;
+  box-sizing: border-box;
+  height: 60%;
+  margin-left: 12.67%;
+  margin-right: 20%;
+  padding-top: 25px;
   background: #f3f3f3; }
+  #footcontent .colspan-3-12 {
+    width: 30%; }
+  #footcontent .colspan-5-12 {
+    width: 40%; }
+  #footcontent .footcolumn {
+    float: left; }
+  #footcontent .footcolitem:hover {
+    color: #f05A29; }
 
 #footfoot {
   position: relative;

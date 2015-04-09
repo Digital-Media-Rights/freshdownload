@@ -1,0 +1,100 @@
+//Fonts
+$akzitesk-regular: "../assets/fonts/Akzidenz-Grotesk-BQ-Regular_2840.ttf";
+$akzitesk-light: "../assets/fonts/Akzidenz-Grotesk-BQ-Light_2831.ttf";
+$akzitesk-EX: "../assets/fonts/Akzidenz-Grotesk-BQ-Extended_2814.ttf";
+$akzitesk-super: "../assets/fonts/Akzidenz-Grotesk-BQ-Super_2842.ttf";
+$akzitesk-bold: "../assets/fonts/Akzidenz-Grotesk-BQ-Bold-Extended_2808.ttf";
+$avantgarde-demi: "../assets/fonts/ufonts.com_avantgarde-demi-opentype.otf";
+$avantgarde-book: "../assets/fonts/ufonts.com_avantgarde-book.ttf";
+
+//Sizing
+$basefontsize: 14px;
+$baselineheight: 18px;
+$baseletterspacing: .05em;
+
+//Styles
+//overlayfont ---> $avantgarde-book;
+		@font-face {
+		    font-family: overlayfont;
+		    src: url($avantgarde-book);
+		}
+
+//navlinkfont ---> $avantgarde-demi;
+		@font-face {
+		    font-family: navlinkfont;
+		    src: url($avantgarde-demi);
+		}
+
+//headlinefont ---> $akzitesk-bold;
+		@font-face {
+		    font-family: headlinefont;
+		    src: url($akzitesk-bold);
+		}
+
+//splashtextfont ---> $akzitesk-super;
+		@font-face {
+		    font-family: splashtextfont;
+		    src: url($akzitesk-super);
+		}
+
+//tileheadfont ---> $akzitesk-regular;
+		@font-face {
+		    font-family: tileheadfont;
+		    src: url($akzitesk-regular);
+		}
+
+//footcolheadfont ---> $akzitesk-EX;
+		@font-face {
+		    font-family: footcolheadfont;
+		    src: url($akzitesk-EX);
+		}
+
+
+//footcolitemfont ---> $akzitesk-light;
+		@font-face {
+		    font-family: footcolitemfont;
+		    src: url($akzitesk-light);
+		}
+
+
+$fontfamily: Arial, Helvetica, sans-serif;
+
+
+
+//Font Classes
+
+.overlayfont {
+	font-family: overlayfont;
+	font-size: .66rem; line-height:1.1rem; letter-spacing: .02rem;
+}
+
+.navlinkfont {
+	font-family: navlinkfont;
+	font-size: .66rem; line-height:1.1rem; letter-spacing: .02rem;
+}
+
+.headlinefont {
+	font-family: headlinefont;
+	font-size: 1.05rem; line-height:1.2rem; letter-spacing: -.03rem;
+}
+
+.splashtextfont {
+	font-family: splashtextfont;
+	font-size: .66rem; line-height:1.1rem; letter-spacing: .02rem;
+}
+
+.tileheadfont {
+	font-family: tileheadfont;
+	font-size: .85rem; line-height:1.1rem; letter-spacing: .02rem;
+}
+
+.footcolhead {
+	font-family: footcolheadfont;
+	margin-bottom: 2em;
+	font-size: 1.2rem; line-height:.7rem; letter-spacing: .2rem;
+}
+
+.footcolitem {
+	font-family: footcolitemfont;
+	font-size: auto; line-height:1.45em; letter-spacing: auto;
+}

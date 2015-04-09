@@ -1,0 +1,25 @@
+@import '../global/ac-lib';
+
+.mastframe {
+	position: relative;
+
+
+	img {
+		position: absolute;
+		width: 100%;
+	}
+
+	#overlay-matte {
+		position: absolute;
+		height: 57%; width: 30%;
+		right: 0;
+		background: purple;
+
+	}
+
+	#overlay-text {
+		position: absolute;
+		width: inherit; height: inherit;
+		background: purple;
+	}
+}

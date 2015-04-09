@@ -25,3 +25,22 @@ Tile
 	$tileimg-h:;
 	$tilebody-h:;
 	$tilefooter-h:;
+
+footertext
+Navigate
+	MOVIES
+	SPORTS
+	FIND ASIAN CRUSH
+	ABOUT
+	JOBS
+
+Asian Crush
+	PRIVACY POLICY
+	TERMS AND CONDITIONS
+	JOBS
+
+How To
+	JOIN OUR MAILING LIST
+	SUBMIT YOUR FILM or PROGRAM
+	ADVERTISE WITH US
+	CONTACT US
